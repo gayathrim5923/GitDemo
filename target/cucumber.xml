@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="27.014">
-<testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="8.579">
-<failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=92.0.4515.131)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BAANVI', ip: '192.168.43.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Vinay\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eeb361919a3eb99a261916b3b803aa6a&#10;*** Element info: {Using=xpath, value=//input[@type='search']}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user is on Green cart Landing page....................................passed
-When user searched for Cucumber vegetables..................................failed
-Then "Cucumber" results should display......................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.131)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BAANVI', ip: '192.168.43.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\Vinay\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: eeb361919a3eb99a261916b3b803aa6a
-*** Element info: {Using=xpath, value=//input[@type='search']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at PageObjects.SearchDefinitionPage.getSearch(SearchDefinitionPage.java:19)
-	at StepDefinition.SearchDefinition.user_searched_for_vegetables(SearchDefinition.java:42)
-	at ✽.user searched for Cucumber vegetables(file:///C:/Users/Vinay/workspace/CucumberLatest/src/test/java/features/Search.feature:6)
-]]></failure>
-</testcase>
-<testcase classname="Search and place order for vegetables" name="Search for items and place order for vegetables" time="8.823">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.277">
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="7.813">
 <system-out><![CDATA[Given user is on Green cart Landing page....................................passed
-When user searched for Brinjal vegetables...................................passed
-And item added to cart......................................................passed
-And proceed to checkout page for purchase...................................passed
-Then verify Brinjal are displyed in checkout page...........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Search and place order for vegetables" name="Search for items and place order for vegetables 2" time="9.3">
-<system-out><![CDATA[Given user is on Green cart Landing page....................................passed
-When user searched for Beetroot vegetables..................................passed
-And item added to cart......................................................passed
-And proceed to checkout page for purchase...................................passed
-Then verify Beetroot are displyed in checkout page..........................passed
+When user searched for Cucumber vegetables..................................passed
+Then "Cucumber" results should display......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

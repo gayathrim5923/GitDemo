@@ -3,29 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-11T22:07:15.667Z",
+        "start_timestamp": "2021-08-12T20:30:32.491Z",
         "line": 4,
         "name": "Search for items and validate results",
         "description": "",
         "id": "search-and-place-order-for-vegetables;search-for-items-and-validate-results",
-        "after": [
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d92.0.4515.131)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BAANVI\u0027, ip: \u0027192.168.43.108\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Vinay\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eeb361919a3eb99a261916b3b803aa6a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat StepDefinition.Hooks.aftertestvalidation(Hooks.java:17)\r\n",
-              "duration": 4077000000,
-              "status": "failed"
-            },
-            "match": {
-              "location": "StepDefinition.Hooks.aftertestvalidation()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4266000000,
+              "duration": 5347000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,9 +25,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d92.0.4515.131)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BAANVI\u0027, ip: \u0027192.168.43.108\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\Vinay\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eeb361919a3eb99a261916b3b803aa6a\n*** Element info: {Using\u003dxpath, value\u003d//input[@type\u003d\u0027search\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat PageObjects.SearchDefinitionPage.getSearch(SearchDefinitionPage.java:19)\r\n\tat StepDefinition.SearchDefinition.user_searched_for_vegetables(SearchDefinition.java:42)\r\n\tat ✽.user searched for Cucumber vegetables(file:///C:/Users/Vinay/workspace/CucumberLatest/src/test/java/features/Search.feature:6)\r\n",
-              "duration": 66000000,
-              "status": "failed"
+              "duration": 2266000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user searched for Cucumber vegetables",
@@ -56,8 +43,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 65000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "\"Cucumber\" results should display",
@@ -75,205 +62,7 @@
         ],
         "tags": [
           {
-            "name": "@SeleniumTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-08-11T22:07:24.275Z",
-        "line": 20,
-        "name": "Search for items and place order for vegetables",
-        "description": "",
-        "id": "search-and-place-order-for-vegetables;search-for-items-and-place-order-for-vegetables;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 260000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.Hooks.aftertestvalidation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3580000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user is on Green cart Landing page",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.user_is_on_green_cart_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2288000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user searched for Brinjal vegetables",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Brinjal",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinition.SearchDefinition.user_searched_for_vegetables(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2302000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "item added to cart",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.item_added_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 269000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "proceed to checkout page for purchase",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.proceed_to_checkout_page_for_purchase()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 110000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "verify Brinjal are displyed in checkout page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Brinjal",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinition.CheckoutStepDefinition.verify_are_displyed_in_checkout_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SeleniumTest"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-08-11T22:07:33.104Z",
-        "line": 21,
-        "name": "Search for items and place order for vegetables",
-        "description": "",
-        "id": "search-and-place-order-for-vegetables;search-for-items-and-place-order-for-vegetables;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.Hooks.aftertestvalidation()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4156000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user is on Green cart Landing page",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.user_is_on_green_cart_landing_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2320000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user searched for Beetroot vegetables",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Beetroot",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinition.SearchDefinition.user_searched_for_vegetables(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2254000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "item added to cart",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.item_added_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 238000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "proceed to checkout page for purchase",
-            "match": {
-              "location": "StepDefinition.SearchDefinition.proceed_to_checkout_page_for_purchase()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "verify Beetroot are displyed in checkout page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Beetroot",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinition.CheckoutStepDefinition.verify_are_displyed_in_checkout_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SeleniumTest"
+            "name": "@SmokeTest"
           }
         ]
       }
