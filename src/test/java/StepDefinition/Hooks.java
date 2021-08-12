@@ -15,6 +15,7 @@ public class Hooks extends Base {
 	public void aftertestvalidation()
 	{
 		driver.close();
+     System.out.println("Hooks after testvalidation ");/comment
 	}
 	
 	@Before("@WebTest")
