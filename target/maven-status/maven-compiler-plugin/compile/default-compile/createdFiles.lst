@@ -1,0 +1,3 @@
+PageObjects\SearchDefinitionPage.class
+PageObjects\CheckoutPage.class
+Automation\CucumberLatest\App.class
